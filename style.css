@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    display: block;
+    padding: 1% 0%;
+    background: transparent;
+}
+
+form.my {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+button {
+    padding: 9px;
+    margin: 7px 0px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: tranarent;
+}
+
+form h1 {
+    text-align: center;
+}
+
+input::placeholder {
+    color: red;
+}
